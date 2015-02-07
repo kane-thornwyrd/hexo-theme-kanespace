@@ -7,7 +7,7 @@ Feel the flow of time with Phase, the most beautiful theme for [Hexo].
 Execute the following command and modify `theme` in `_config.yml` to `phase`.
 
 ```
-git clone git://github.com/tommy351/hexo-theme-phase.git themes/phase
+git clone https://github.com/kane-thornwyrd/hexo-theme-kanespace.git themes/kanespace
 ```
 
 ## Update
@@ -15,7 +15,7 @@ git clone git://github.com/tommy351/hexo-theme-phase.git themes/phase
 Execute the following command to update Light.
 
 ```
-cd themes/phase
+cd themes/kanespace
 git pull
 ```
 
