@@ -1,13 +1,13 @@
 # Phase
 
-Feel the flow of time with Phase, the most beautiful theme for [Hexo].
+Feel the flow of time with KaneSpace, the most beautiful theme for [Hexo].
 
 ## Install
 
-Execute the following command and modify `theme` in `_config.yml` to `phase`.
+Execute the following command and modify `theme` in `_config.yml` to `KaneSpace`.
 
 ```
-git clone https://github.com/kane-thornwyrd/hexo-theme-kanespace.git themes/kanespace
+git clone https://github.com/kane-thornwyrd/hexo-theme-kanespace.git themes/KaneSpace
 ```
 
 ## Update
@@ -15,7 +15,7 @@ git clone https://github.com/kane-thornwyrd/hexo-theme-kanespace.git themes/kane
 Execute the following command to update Light.
 
 ```
-cd themes/kanespace
+cd themes/KaneSpace
 git pull
 ```
 
