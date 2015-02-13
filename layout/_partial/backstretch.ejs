@@ -6,7 +6,7 @@
       <% for(var i in config.backstretchPhotos){%>
       '<%- url_for(config.backstretchPhotos[i]) %>',
       <% } %>
-    ], {duration: 10000, fade: 750});
+    ], {duration: <%- theme.backstretchDuration %>, fade: <%- theme.backstretchFade %>});
   });
 </script>
 <% } %>

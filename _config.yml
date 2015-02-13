@@ -12,5 +12,7 @@ addthis:
 
 fancybox: false
 backstretch: true
+backstretchDuration: 15000
+backstretchFade: 1000
 google_analytics:
 rss: rss.xml
