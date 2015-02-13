@@ -1,7 +1,5 @@
-<article class="<% if (item.layout == 'page'){ %>page<% } else { %>post<% } %>">
-  <% if (item.photos){ %>
-    <%- partial('post/gallery') %>
-  <% } %>
+<article class="<%- item.layout%>">
+  <% if (item.photos){ %><%- partial('post/gallery') %><% } %>
   <header>
     <%- partial('post/title') %>
     <% if (item.layout != 'page'){ %><%- partial('post/date') %><% } %>
@@ -9,6 +7,7 @@
   <div class="entry-content">
     <% if (item.excerpt && index){ %>
       <%- item.excerpt %>
+      <%- partial('post/breakTeaser') %>
     <% } else { %>
       <%- item.content %>
     <% } %>

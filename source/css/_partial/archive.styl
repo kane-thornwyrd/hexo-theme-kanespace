@@ -1,6 +1,9 @@
 #archive-header
-  height 2em
-  margin-bottom 50px
+  display block
+  padding 1em
+  clearfix()
+  position relative
+  background-image linear-gradient(to bottom, #020,#040 20%, #040 80%,#020)
   h1
     color rgba(255,255,255,0.7)
     font-family font-title
@@ -8,13 +11,16 @@
     line-height 1
 
   .search
-    input[type="text"]
+    input
       background rgba(0,0,0,0.3)
       border none
       color rgba(255,255,255,0.7)
       font 0.9em font-title
-      padding 7px 12px
+      padding .5em
       width 150px
+      font-size 1em
+      box-shadow 0 0 11px rgba(255,255,255,.5) inset
+      border-radius .5em
 
 .archives
   background #fff

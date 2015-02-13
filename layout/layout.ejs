@@ -1,6 +1,10 @@
 <%- partial('_partial/head') %>
 
-<body>
+<% if(url_for(page.path) === config.root){ %>
+  <body class="root">
+<% }else{ %>
+  <body>
+<% } %>
   <header id="header" class="inner"><%- partial('_partial/header') %></header>
   <div id="content" class="inner"><%- body %></div>
   <footer id="footer" class="inner"><%- partial('_partial/footer') %></footer>

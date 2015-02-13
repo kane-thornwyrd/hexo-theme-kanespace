@@ -1,15 +1,17 @@
-<div class="gallery">
-  <div class="photoset">
-    <% if (item.photos.length){ %>
-      <% item.photos.forEach(function(photo){ %>
-        <img src="<%- photo %>">
-      <% }); %>
-    <% } else { %>
-      <img src="<%- item.photos %>">
-    <% } %>
+<% if (!!item.photos.length){ %>
+  <div class="gallery">
+    <div class="photoset">
+      <% if (item.photos.length > 1){ %>
+        <% item.photos.forEach(function(photo){ %>
+          <img src="<%- photo %>">
+        <% }); %>
+      <% } else { %>
+        <img src="<%- url_for(item.photos) %>">
+      <% } %>
+    </div>
+    <div class="control">
+      <div class="prev"></div>
+      <div class="next"></div>
+    </div>
   </div>
-  <div class="control">
-    <div class="prev"></div>
-    <div class="next"></div>
-  </div>
-</div>
+<% } %>

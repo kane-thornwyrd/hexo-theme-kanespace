@@ -1,0 +1,6 @@
+
+<% if (item.link){ %>
+<p><em><a href="<%- item.link %>" class="link">More after the break...</a></em></p>
+<% } else { %>
+<p><em><a href="<%- config.root %><%- item.path %>" class="link">More after the break...</a></em></p>
+<% } %>

@@ -1,20 +1,16 @@
 menu:
-  Home: /
+  Home: "/"
+  "How to get it ?": "/How-to-get-it"
   Archives: /archives
+  Wiki: https://github.com/kane-thornwyrd/Stranded-Strained/wiki
+  Issues: https://github.com/kane-thornwyrd/Stranded-Strained/issues
+  Sources: https://github.com/kane-thornwyrd/Stranded-Strained
 
 addthis:
   enable: true
-  pubid:
-  facebook: true
-  twitter: true
-  google: true
-  pinterest: true
+  pubid: kanethornwyrd
 
-facebook:
-google_plus:
-twitter:
-github:
-
-fancybox: true
+fancybox: false
+backstretch: true
 google_analytics:
-rss:
+rss: rss.xml

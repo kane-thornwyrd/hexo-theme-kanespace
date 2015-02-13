@@ -1,7 +1,12 @@
+<head>
+  <h1 id="blogHead"><a href="<%- url_for("/") %>"><%= config.title %></a></h1>
+  <q id="subhead"><%= config.subtitle %></q>
+</head>
+
 <nav>
   <ul>
     <% for (var i in theme.menu){ %>
-      <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
+      <li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
     <% } %>
   </ul>
 </nav>

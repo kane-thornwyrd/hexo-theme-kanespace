@@ -1,0 +1,12 @@
+<% if (theme.backstretch){ %>
+<script type="text/javascript">
+  $(window.document).ready(function(){
+    console.debug('BACKSTRETCH !');
+    $.backstretch([
+      <% for(var i in config.backstretchPhotos){%>
+      '<%- url_for(config.backstretchPhotos[i]) %>',
+      <% } %>
+    ], {duration: 10000, fade: 750});
+  });
+</script>
+<% } %>
